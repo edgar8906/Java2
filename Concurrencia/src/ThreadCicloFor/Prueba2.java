@@ -20,7 +20,7 @@ public class Prueba2 implements Runnable {
         try {
             
             if(Thread.currentThread().getName().equals("1")) Thread.sleep(4000);
-                   
+               
                 System.out.println(" soy un thread en ejecucion "+Thread.currentThread().getName());
                 
         } catch (InterruptedException ex) {

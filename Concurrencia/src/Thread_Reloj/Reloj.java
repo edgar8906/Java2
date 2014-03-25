@@ -1,6 +1,6 @@
 package Thread_Reloj;
 
-import java.util.*;
+import java.util.Calendar;
 
 public class Reloj{
 
@@ -10,6 +10,9 @@ public class Reloj{
         //  y cada thread llevara su propio public void run
         Thread t1=new Thread(new Runnable(){
             public void run(){
+                while(true){
+                    
+                
                 try{
                     Thread.sleep(1000);
                     
@@ -23,6 +26,7 @@ public class Reloj{
                        
                 }catch (InterruptedException ex){
                     
+                }
                 }
              }  //llaves public void run()
         }); //llave y parametro del Thread

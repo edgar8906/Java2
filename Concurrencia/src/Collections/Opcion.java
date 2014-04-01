@@ -5,7 +5,7 @@ public class Opcion {
     private boolean valor;
     private int id;
 
-    public Opcion(String titulo, boolean valor, int id) {
+    public Opcion(int id,String titulo, boolean valor) {
         this.titulo = titulo;
         this.valor = valor;
         this.id = id;

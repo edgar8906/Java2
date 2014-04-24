@@ -30,7 +30,7 @@ public class Guardar {
     operadores.add(o);
      oos.writeObject(operadores); 
     oos.close();
-  System.out.println("Se ah Guardo");
+  System.out.println("Ya Se Guardo");
     }
     
 }
